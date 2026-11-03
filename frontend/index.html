@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="DocuMind - NotebookLM Document Intelligence & AI Study Studio" />
+    <meta name="theme-color" content="#0D7377" />
+    <title>DocuMind AI • NotebookLM Document Studio & AI Tutor</title>
+
+    <!-- Google Fonts: Inter (Sans), Lora (Serif), JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS Play CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brandBg: '#FAFAF8',
+              brandSurface: '#F4F4F1',
+              brandRaised: '#EFEFE9',
+              brandBorder: '#E0DED8',
+              brandBorderSubtle: '#ECEAE4',
+              brandText: '#1A1A18',
+              brandSecondary: '#4A4A46',
+              brandMuted: '#7A7A74',
+              brandTeal: '#0D7377',
+              brandTealHover: '#0A5F62',
+              brandTealLight: '#E8F4F4',
+              brandBlue: '#0B57D0',
+              brandBlueLight: '#E8F0FE',
+              brandEmerald: '#10B981',
+              brandAmber: '#D97706',
+              brandRose: '#EF4444',
+            },
+            fontFamily: {
+              sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+              serif: ['Lora', 'Georgia', 'serif'],
+              mono: ['JetBrains Mono', 'Consolas', 'monospace'],
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-[#FAFAF8] text-[#1A1A18] antialiased selection:bg-[#E8F4F4] selection:text-[#0D7377]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

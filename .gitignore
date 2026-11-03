@@ -1,0 +1,42 @@
+# Environment variables and secrets
+.env
+*.env
+**/.env
+**/*.env
+ai-service/.env
+
+# Dependencies
+node_modules/
+**/node_modules/
+venv/
+**/venv/
+ai-service/venv/
+
+# Build outputs
+dist/
+**/dist/
+build/
+
+# Python cache & temp
+__pycache__/
+**/__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Index storage & temp directories
+indexes/
+**/indexes/
+test_indexes/
+temp/
+temp-test/
+.cache/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Template folder
+template/
